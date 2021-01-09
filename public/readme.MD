@@ -14,3 +14,8 @@
 2. Alternate run: ```npm install -g live-server``` works!
 3. Check run: ```live-server -v```
 4. Docs: <http://tapiov.net/live-server/http://tapiov.net/live-server/>
+
+## Task: Start live-server
+
+1. Run: ```live-server public```
+2. Displays page on 127.0.0.1:8080
