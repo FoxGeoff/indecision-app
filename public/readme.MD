@@ -28,5 +28,4 @@
 2. Add to app.js ```console.log("app.js is runing!#);```
 3. ERROR: script  tag header type mismach
 
-
 ### Task: Setting up Babel
