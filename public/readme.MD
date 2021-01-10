@@ -22,8 +22,11 @@
 
 ## Kanban Task #3: Hello React
 
-### Task: Add script tag s for React and ReactDOM
+### Task: Add script tags for React and ReactDOM
 
 1. Go to web page and in console look for React and ReactDOM objects
+2. Add to app.js ```console.log("app.js is runing!#);```
+3. ERROR: script  tag header type mismach
+
 
 ### Task: Setting up Babel
