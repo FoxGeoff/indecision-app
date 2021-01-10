@@ -22,4 +22,8 @@
 
 ## Kanban Task #3: Hello React
 
+### Task: Add script tag s for React and ReactDOM
+
+1. Go to web page and in console look for React and ReactDOM objects
+
 ### Task: Setting up Babel
