@@ -13,7 +13,7 @@
 1. Run: ```yarn global add live-server``` doesn't work!
 2. Alternate run: ```npm install -g live-server``` works!
 3. Check run: ```live-server -v```
-4. Docs: <http://tapiov.net/live-server/http://tapiov.net/live-server/>
+4. Docs: <http://tapiov.net/live-server>
 
 ### Task: Start live-server
 
