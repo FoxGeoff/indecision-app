@@ -32,4 +32,14 @@
 
 ### Task: Add: Simulation babel.js pre-compiler
 
-### Task: Setting up Babel
+1. NOTE: Typscript and React preset <https://www.typescriptlang.org/docs/handbook/react.html>
+2. NOTE: Gatsby : <https://www.gatsbyjs.com/>
+3. We use 2 presets with Babel: env and react
+4. Run: ```yarn global add babel-cli@6.24.1``` this will fail
+5. Run ```npm install -g babel-cli@6.24.1```
+6. Run presets: ```yarn int```
+7. Run: ```yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2```
+8. Run: ```babel src/app.js --out-file=public/scripts/app.js --presets="env,react" --watch```
+9. Ref: <https://stackoverflow.com/questions/61116908/react-couldnt-find-preset-env-react-relative-to-directory-src>
+
+### Task: Setting up Babel (local)
