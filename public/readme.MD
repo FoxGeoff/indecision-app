@@ -27,5 +27,6 @@
 1. Go to web page and in console look for React and ReactDOM objects
 2. Add to app.js ```console.log("app.js is runing!#);```
 3. ERROR: script  tag header type mismach
+4. ERROR: ```Uncaught SyntaxError expresion, got '<'```
 
 ### Task: Setting up Babel
