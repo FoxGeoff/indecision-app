@@ -28,5 +28,8 @@
 2. Add to app.js ```console.log("app.js is runing!#);```
 3. ERROR: script  tag header type mismach
 4. ERROR: ```Uncaught SyntaxError expresion, got '<'```
+5. FIX: Add Babeljs.io
+
+### Task: Add: Simulation babel.js pre-compiler
 
 ### Task: Setting up Babel
