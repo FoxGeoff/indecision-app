@@ -1,13 +1,18 @@
 console.log(`app.js working!`);
 
-var userName = 'Mike';
-var userAge = 23;
+var post = {
+    title: 'The Indecision App',
+    subTitle: 'React Javascript Example'
+}
 //JSX - JavaScript XML
 var template = (
 <div>
-   <h1>{userName}</h1>
-   <p>Age: {userAge}</p>
-   <p>Location: Philadelphia</p>
+   <h1>{post.title}</h1>
+   <p>{post.subTitle}</p>
+   <ol>
+       <li>Item one</li>
+       <li>Item two</li>
+   </ol>
 </div>
 );
 

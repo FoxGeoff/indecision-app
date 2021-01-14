@@ -2,28 +2,37 @@
 
 console.log('app.js working!');
 
-var userName = 'Mike';
-var userAge = 23;
-//JSX - JavaScript XML
-var template = React.createElement(
-   'div',
-   null,
-   React.createElement(
-      'h1',
-      null,
-      userName
-   ),
-   React.createElement(
-      'p',
-      null,
-      'Age: ',
-      userAge
-   ),
-   React.createElement(
-      'p',
-      null,
-      'Location: Philadelphia'
-   )
+var post = {
+    title: 'The Indecision App',
+    subTitle: 'React Javascript Example'
+    //JSX - JavaScript XML
+};var template = React.createElement(
+    'div',
+    null,
+    React.createElement(
+        'h1',
+        null,
+        post.title
+    ),
+    React.createElement(
+        'p',
+        null,
+        post.subTitle
+    ),
+    React.createElement(
+        'ol',
+        null,
+        React.createElement(
+            'li',
+            null,
+            'Item one'
+        ),
+        React.createElement(
+            'li',
+            null,
+            'Item two'
+        )
+    )
 );
 
 var appRoot = document.getElementById('app');
