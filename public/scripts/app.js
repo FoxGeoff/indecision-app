@@ -4,9 +4,23 @@ console.log('app.js working!');
 
 //JSX - JavaScript XML
 var template = React.createElement(
-  'p',
-  null,
-  'This is JSX from app.js!!'
+   'div',
+   null,
+   React.createElement(
+      'h1',
+      null,
+      'Geoff Fox'
+   ),
+   React.createElement(
+      'p',
+      null,
+      'Age: 26'
+   ),
+   React.createElement(
+      'p',
+      null,
+      'Location: Philadelphia'
+   )
 );
 
 var appRoot = document.getElementById('app');

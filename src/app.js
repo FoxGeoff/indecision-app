@@ -1,7 +1,13 @@
 console.log(`app.js working!`);
 
 //JSX - JavaScript XML
-var template =<p>This is JSX from app.js!!</p>;
+var template = (
+<div>
+   <h1>Geoff Fox</h1>
+   <p>Age: 26</p>
+   <p>Location: Philadelphia</p>
+</div>
+);
 
 var appRoot = document.getElementById('app');
 
