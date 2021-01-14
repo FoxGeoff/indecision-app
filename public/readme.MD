@@ -43,3 +43,9 @@
 9. Ref: <https://stackoverflow.com/questions/61116908/react-couldnt-find-preset-env-react-relative-to-directory-src>
 
 ### Task: Setting up Babel (local)
+
+### Task: Conditional Rendering in JSX
+
+1. Template function ```return <p>Location {location}```
+2. Conditional ``` 'true' && 'not true // returns true or if not returns 'not true'
+3. Conditional (ternay) operator ```true? 'this is true' : 'this is false'```
