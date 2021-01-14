@@ -2,6 +2,8 @@
 
 console.log('app.js working!');
 
+var userName = 'Mike';
+var userAge = 23;
 //JSX - JavaScript XML
 var template = React.createElement(
    'div',
@@ -9,12 +11,13 @@ var template = React.createElement(
    React.createElement(
       'h1',
       null,
-      'Geoff Fox'
+      userName
    ),
    React.createElement(
       'p',
       null,
-      'Age: 26'
+      'Age: ',
+      userAge
    ),
    React.createElement(
       'p',
