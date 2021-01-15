@@ -1,6 +1,6 @@
 console.log(`app.js working!`);
 
-var post = {
+const post = {
   title: "The Indecision App",
   subTitle: "React Javascript Example",
   subTitle2: "Missing Sub-title",
@@ -21,7 +21,7 @@ function options(optList) {
 }
 
 //JSX - JavaScript XML
-var template = (
+const template = (
   <div>
     <h1>{post.title}</h1>
     <p>{subTitle(post.subTitle)}</p>
@@ -35,6 +35,6 @@ var template = (
   </div>
 );
 
-var appRoot = document.getElementById("app");
+const appRoot = document.getElementById("app");
 
 ReactDOM.render(template, appRoot);

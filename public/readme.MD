@@ -49,3 +49,9 @@
 1. Template function ```return <p>Location {location}```
 2. Conditional ``` 'true' && 'not true // returns true or if not returns 'not true'
 3. Conditional (ternay) operator ```true? 'this is true' : 'this is false'```
+
+### Task: ES6 Aside: const and let
+
+1. Run ```babel src/app.js --out-file=public/scripts/app.js --presets="env,react" --watch```
+2. Run in new node window```live-server public```
+3. Check on 127.0.0.1:8080
