@@ -5,11 +5,8 @@ const user = {
 
   // es6 method syntax using the map function
   printPlacesLived() {
-    const cityMessage = this.cities.map((city) => {
-      return `A message from ${city}!`;
-    });
-    return cityMessage;
-   }
+    return this.cities.map((city) => `A message from ${city}!`);
+  }
 };
 
 // call the function

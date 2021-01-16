@@ -7,10 +7,9 @@ var user = {
 
   // es6 method syntax using the map function
   printPlacesLived: function printPlacesLived() {
-    var cityMessage = this.cities.map(function (city) {
+    return this.cities.map(function (city) {
       return "A message from " + city + "!";
     });
-    return cityMessage;
   }
 };
 
