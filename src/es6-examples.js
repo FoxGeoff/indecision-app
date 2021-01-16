@@ -1,10 +1,8 @@
-'use strict';
-
 // Object literal
-var user = {
+const user = {
    name: 'Andrew',
    cities: ['Philadelphia', 'New York', 'London'],
-   printPlacesLived: function printPlacesLived() {
+   printPlacesLived: function() {
       console.log(this.name);
       console.log(this.cities);
    }
@@ -14,12 +12,10 @@ var user = {
 user.printPlacesLived();
 
 // JSX - JavaScript XML
-var template = React.createElement(
-   'div',
-   null,
-   'Test run'
+const template = (
+   <div>Test run</div>
 );
 
-var appRoot = document.getElementById("app");
+const appRoot = document.getElementById("app");
 
 ReactDOM.render(template, appRoot);

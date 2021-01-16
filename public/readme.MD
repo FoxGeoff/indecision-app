@@ -55,3 +55,30 @@
 1. Run ```babel src/app.js --out-file=public/scripts/app.js --presets="env,react" --watch```
 2. Run in new node window```live-server public```
 3. Check on 127.0.0.1:8080
+
+### Task: ES6 Aside: Arrow Functions
+
+1. The Arrow function is no longer bound with arrow functions
+2. The 'This" Key word is no longer bound with arrow functions
+
+Example:
+
+```Javascript
+const test = function test (a, b) {
+    console.log(arguments);
+    return a + b;
+})
+
+console.log(test(1,2,3)); // returns 1, 2 and 3
+```
+
+This will not work:
+
+```Javascript
+const test = test(a, b)=> {
+    console.log(arguments);  //error!
+    return a + b;
+}
+
+console.log(test(1,2,3)); //error!
+```
