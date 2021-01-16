@@ -61,7 +61,9 @@
 1. The Arrow function is no longer bound with arrow functions
 2. The 'This" Key word is no longer bound with arrow functions
 
-Example:
+## Examples
+
+### This will work with a regular function
 
 ```Javascript
 const test = function test (a, b) {
@@ -72,13 +74,41 @@ const test = function test (a, b) {
 console.log(test(1,2,3)); // returns 1, 2 and 3
 ```
 
-This will not work:
+### This will not work with a fat arrow function
 
 ```Javascript
-const test = test(a, b)=> {
+const test = test(a, b) => {
     console.log(arguments);  //error!
     return a + b;
 }
 
 console.log(test(1,2,3)); //error!
+```
+
+### This is how a fat arrow functions use 'this'
+
+```Javascript
+// Object literal
+const user = {
+  name: "Andrew",
+  cities: ["Philadelphia", "New York", "London"],
+  printPlacesLived: function () {
+    console.log(this.name);
+    console.log(this.cities);
+
+    // work around
+    const that = this;
+    // an arrow function in this method would cause 'this' to fail
+    this.cities.forEach(function (city) {
+      console.log(city); //good
+      // console.log(this.name); // error
+      console.log(that.name); // work around
+    });
+
+    // now for arrow functions
+    this.cities.forEach((city) => {
+      console.log(` ${this.name} has lived in ${city}`);
+    });
+  },
+};
 ```
