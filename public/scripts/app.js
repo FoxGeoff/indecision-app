@@ -4,6 +4,8 @@
 var user = {
   name: "Andrew",
   cities: ["Philadelphia", "New York", "London"],
+
+  // es6 method syntax
   printPlacesLived: function printPlacesLived() {
     var _this = this;
 

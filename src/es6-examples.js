@@ -2,7 +2,9 @@
 const user = {
   name: "Andrew",
   cities: ["Philadelphia", "New York", "London"],
-  printPlacesLived: function () {
+
+  // es6 method syntax
+  printPlacesLived() {
     console.log(this.name);
     console.log(this.cities);
 

@@ -112,3 +112,12 @@ const user = {
   },
 };
 ```
+
+### A better es6 method syntax
+
+```Javascript
+printPlacesLived: function () { };
+
+// es6 changes 'this'
+printPlacesLived() { }
+```
