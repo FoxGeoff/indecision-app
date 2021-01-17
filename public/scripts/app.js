@@ -15,3 +15,5 @@ var user = {
 
 // call the function
 console.log(user.printPlacesLived());
+
+// My Challenge Exercise
